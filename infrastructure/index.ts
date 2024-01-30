@@ -7,7 +7,7 @@ import * as containerinstance from '@pulumi/azure-native/containerinstance'
 // Import the configuration settings for the current stack.
 const config = new pulumi.Config()
 const appPath = config.get('appPath') || '../'
-const prefixName = config.get('prefixName') || 'cst8918-a03-student'
+const prefixName = config.get('prefixName') || 'cst8918a03pate1293'
 const imageName = prefixName
 const imageTag = config.get('imageTag') || 'latest'
 // Azure container instances (ACI) service does not yet support port mapping
